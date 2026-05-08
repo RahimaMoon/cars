@@ -183,6 +183,66 @@ row-gap: 30px;
 .car{
     text-align: center;
 }
+.warring{
+    background-color: red;
+    width:260px;
+    padding:10px;
+    border-radius: 10px;
+}
+.btn3{
+    padding: 15px;
+    border-radius: 10px;
+    border:none ;
+    width:60%;
+    background-color: #FF9549;
+}
+.section3{
+    background-color: #1C2121;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding:50px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.top{
+    display: flex;
+}
+.left{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.right{
+width:100%;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   
+}
+.btn4{
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid  #FF9549 ;
+    width:60%;
+    background-color: transparent;
+    color: white;  
+}
+.mini{
+    display: flex;
+    background-color: #181818;
+    color:white;
+    padding:15px;
+    gap:10px;
+    width:70%;
+    border-radius: 10px;
+}
+
 @media(max-width:510px) {
     .top-bar{
         display: none;
@@ -218,5 +278,20 @@ row-gap: 30px;
     }
     .row{
         flex-direction: column;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .right{
+        width:90%;
+    }
+    .btns, .btn3, .btn4{
+        width:100%;
+    }
+    .carim{
+        width:90%;
+    }
+    .top{
+        flex-direction: column-reverse;
     }
 }
