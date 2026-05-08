@@ -242,6 +242,61 @@ width:100%;
     width:70%;
     border-radius: 10px;
 }
+.section5{
+    background-color: #181818;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.inps{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+   
+   
+    color:white;
+}
+input{
+    padding:15px;
+    border-radius: 10px;
+    width:80%;
+    background-color: rgb(94, 92, 92);
+    gap:20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.big{
+    display: flex;
+    border: 1px solid grey;
+    padding:20px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    color:white;
+}
+.info{
+display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.bts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 
 @media(max-width:510px) {
     .top-bar{
