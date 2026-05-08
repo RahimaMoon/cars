@@ -108,6 +108,25 @@
 .mob{
     display: none;
 }
+.section1{
+    position: relative;
+}
+.text{
+position: absolute;
+top:150px;
+left:140px;
+color:white;
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+}
+.btn1{
+    padding:15px;
+    background-color: #FF9549;
+    border-radius: 10px;
+    border: none;
+    width:50%;
+}
 @media(max-width:510px) {
     .top-bar{
         display: none;
@@ -123,5 +142,13 @@
       
         width:45px;
         height:35px;
+    }
+   .text{
+        flex-direction: column;
+        background-color: #000;
+        margin-top: -20px;
+        margin-left: -140px;;
+        width:90%;
+        padding:20px;
     }
 }
